@@ -89,7 +89,6 @@ body {
   flex-direction: column;
 }
 
-/* Specific card layouts */
 .highlight-card {
   justify-content: center;
   align-items: center;
@@ -144,7 +143,6 @@ body {
   justify-content: center;
 }
 
-/* Images styling */
 .rating-img {
   width: 60%;
 }
@@ -220,7 +218,6 @@ body {
   text-decoration: underline;
 }
 
-/* Responsive styling */
 @media (max-width: 600px) {
   .page-footer {
     padding: 0.75rem;
@@ -230,6 +227,6 @@ body {
   }
 
   .grid-wrapper {
-    padding-bottom: 70px; /* Add padding to prevent content from being hidden behind fixed footer */
+    padding-bottom: 70px;
   }
 }
